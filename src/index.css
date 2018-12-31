@@ -1,0 +1,53 @@
+@import './App.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app__wrap {
+  width: 320px;
+  display: block;
+  margin: 0 auto;
+  padding: 25px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #999;
+}
+
+.app__wrap .btn {
+  margin-top: 50px;
+}
+
+.app__values {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__values > * {
+  width: calc(50% - 10px);
+}
+
+
+
+.btn {
+  padding: 8px 12px;
+  color: #2f8471;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  border-radius: 3px;
+  border: 1px #2f8471 solid;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 0 12px #4fe3c1;
+  background: #4fe3c1;
+}
+
+.btn:focus {
+  outline: none;
+}
